@@ -38,34 +38,7 @@ def output():
 def main():
     get_iframe_info(get_iframe_link())
     output()
-    # for turtle in turtle_info:
-    #     print(turtle["name"])
-        
-    
     
 if __name__ == '__main__':
     main()
  
-
-        
-    # BASE_URL = "https://www.scrapethissite.com/pages/frames"
-    # response = re.get(BASE_URL)
-    # webpage = response.text
-    # soup = BeautifulSoup(webpage, "html.parser")
-    # test = soup.find(id="iframe")
-    # print(test['src'])
-    # years = sorted([int(year.text.strip()) for year in soup.find_all('a', class_='year-link')])
-    
-    # pages = []
-    # for year in years:
-    #     pages.append(f"{BASE_URL}?ajax=true&year={year}")
-    # return pages
-
-
-
-# BASE_URL = "https://www.scrapethissite.com/pages/frames"
-# response = re.get(BASE_URL)
-# webpage = response.text
-# soup = BeautifulSoup(webpage, "html.parser")
-# test = soup.find(id="iframe")
-# print(test['src'])
